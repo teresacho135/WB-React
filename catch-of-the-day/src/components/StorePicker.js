@@ -6,6 +6,7 @@ class StorePicker extends React.Component {
       <>
         <p>Fish!</p>
         <form className='store-selector'>
+          { /* comment */ }
           <h2>Please Enter a Store</h2>
         </form>
       </>
