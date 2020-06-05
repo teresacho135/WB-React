@@ -10,8 +10,8 @@ const Header = ({ tagline, age }) => (
       </span>
        Day
       </h1>
-      <h3 className='tagline'>
-        <span>{tagline}</span>
+      <h3 className='tagline' >
+        <span>{tagline} {age} </span>
       </h3>
   </header>
 )
