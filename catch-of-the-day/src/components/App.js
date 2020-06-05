@@ -3,6 +3,10 @@ import Header from './Header';
 import Order from './Order';
 import Inventory from './Inventory';
 
+function Header() {
+  
+}
+
 class App extends React.Component {
   render() {
     return (
