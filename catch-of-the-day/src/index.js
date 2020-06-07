@@ -5,4 +5,4 @@ import App from './components/App';
 import Router from './components/Router';
 import "./css/style.css"
 
-render(<App />, document.querySelector('#main'));
+render(<Router />, document.querySelector('#main'));
