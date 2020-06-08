@@ -2,6 +2,10 @@ import React from 'react';
 import { getFunName } from '../helpers';
 
 class StorePicker extends React.Component {
+  handleClick() {
+    alert('heyy');
+  };
+
   render() {
     return (
         <form className='store-selector'>
