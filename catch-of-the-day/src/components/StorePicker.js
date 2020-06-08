@@ -3,6 +3,7 @@ import { getFunName } from '../helpers';
 
 class StorePicker extends React.Component {
   constructor() {
+    super();
     console.log('Gonna create a construcotr')
   }
   
