@@ -8,8 +8,14 @@ class StorePicker extends React.Component {
     //1, Stop the form from submitting
     event.preventDefault();
     //2. get text from that input
+    
     //3. Change the page to /store/whatever-they-entered
     
+  }
+
+  componentDidMount() {
+    console.log('MOUNTED!!!');
+    console.log(this);
   }
 
   render() {
