@@ -4,7 +4,7 @@ import { getFunName } from '../helpers';
 class StorePicker extends React.Component {
   render() {
     return (
-        <form className='store-selector'>
+        <form className='store-selector' onSubmit={this.handleSubmit}>
           <h2>Please Enter a Store</h2>
           <input 
             type="text" 
