@@ -2,6 +2,10 @@ import React from 'react';
 import { getFunName } from '../helpers';
 
 class StorePicker extends React.Component {
+  goToStore() {
+    console.log('Going to store');
+  }
+
   render() {
     console.log(this);
     return (
