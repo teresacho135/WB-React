@@ -12,6 +12,6 @@ const Router = () => (
       <Route component={NotFound} />
     </Switch>
   </BrowserRouter>
-)
+);
 
 export default Router;
