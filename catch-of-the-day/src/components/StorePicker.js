@@ -2,6 +2,10 @@ import React from 'react';
 import { getFunName } from '../helpers';
 
 class StorePicker extends React.Component {
+  constructor() {
+    console.log('Gonna create a construcotr')
+  }
+  
   myInput = React.createRef();
   
   goToStore(event) {
@@ -11,11 +15,6 @@ class StorePicker extends React.Component {
     
     //3. Change the page to /store/whatever-they-entered
     
-  }
-
-  componentDidMount() {
-    console.log('MOUNTED!!!');
-    console.log(this);
   }
 
   render() {
