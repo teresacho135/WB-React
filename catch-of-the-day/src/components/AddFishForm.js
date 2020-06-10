@@ -10,7 +10,7 @@ class AddFishForm extends React.Component {
   createFish = event => {
     //1. stop the form from submitting 
     event.preventDefault(); 
-    console.log('making a fishie')
+    console.log(this.nameRef.current.value);
 
   }
   
