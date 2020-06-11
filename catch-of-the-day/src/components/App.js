@@ -10,7 +10,9 @@ class App extends React.Component {
   };
 
   addFish = (fish) => {
-    console.log('adding them fishes')
+    //1. Take a copy of the existing state
+    const fishes = {...this.state.fishes};
+    //2. Add our new fish to that fishes variable
   };
 
   render() {
