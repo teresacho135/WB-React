@@ -14,6 +14,10 @@ class App extends React.Component {
     const fishes = {...this.state.fishes};
     //2. Add our new fish to that fishes variable
     fishes[`fish${Date.now()}`] = fish;
+    //3. Set the new fishes object into state
+    this.setState({
+      fishes: fishes
+    });
   };
 
   render() {
