@@ -16,7 +16,7 @@ class App extends React.Component {
     fishes[`fish${Date.now()}`] = fish;
     //3. Set the new fishes object into state
     this.setState({
-      fishes: fishes
+      fishes
     });
   };
 
