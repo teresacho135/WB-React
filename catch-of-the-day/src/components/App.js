@@ -30,7 +30,7 @@ class App extends React.Component {
         <div className='menu'>
           <Header tagline='Fresh Seafood Market' />
             <ul className='fishes'>
-              
+              <Fish />
             </ul>
         </div>
         <Order />
