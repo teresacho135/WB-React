@@ -20,7 +20,7 @@ class App extends React.Component {
   };
 
   loadSampleFishes = () => {
-    alert('loading sample fishes')
+    this.setState({ fishes: sampleFishes })
   }
 
   render() {
