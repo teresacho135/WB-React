@@ -30,6 +30,7 @@ class App extends React.Component {
     //2. Either add to the order, or update the number in our order. 
     order[key] = order[key] + 1 || 1;
     //3. call setState to update our state. 
+    this.setState({ order });
   }
 
   render() {
