@@ -3,7 +3,7 @@ import React from 'react';
 class Fish extends React.Component {
   render() {
     return (
-      <div classname='single-fish'>🐟</div>
+      <li classname='single-fish'>🐟</li>
     )
   };
 };
