@@ -9,8 +9,6 @@ class App extends React.Component {
   state = {
     fishes: {},
     order: {},
-    age: 100,
-    cool: true,
   };
 
   addFish = fish => {
@@ -51,7 +49,7 @@ class App extends React.Component {
               ))}
             </ul>
         </div>
-        <Order {...this.state} />
+        <Order fishes={this.state.fishes} order={this.state.order} />
         <Inventory 
           addFish={this.addFish} 
           loadSampleFishes={this.loadSampleFishes}
