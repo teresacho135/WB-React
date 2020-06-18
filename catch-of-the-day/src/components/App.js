@@ -9,6 +9,8 @@ class App extends React.Component {
   state = {
     fishes: {},
     order: {},
+    age: 100,
+    cool: true,
   };
 
   addFish = fish => {
