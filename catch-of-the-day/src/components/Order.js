@@ -17,7 +17,9 @@ class Order extends React.Component {
     return (
       <div className="order-wrap">
         <h2>Order</h2>
-        {orderIds}
+        <ul>
+          {orderIds}
+        </ul>
         <div className='total'>
           <strong>{formatPrice(total)}</strong>
         </div>
