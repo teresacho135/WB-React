@@ -5,7 +5,9 @@ class Order extends React.Component {
   renderOrder = (key) => {
     const fish = this.props.fishes[key];
     const count = this.props.order[key];
-    return <li>🐟{key}</li>
+    return <li>
+     {count} lbs {fish.name}
+    </li>
   }
 
   render() {
