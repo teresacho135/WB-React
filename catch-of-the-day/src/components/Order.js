@@ -7,8 +7,7 @@ class Order extends React.Component {
     const count = this.props.order[key];
     return <li>
      {count} lbs {fish.name}
-
-     {count * fish.price}
+     {formatPrice(count * fish.price)}
     </li>
   }
 
