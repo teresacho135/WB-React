@@ -8,13 +8,13 @@ class Order extends React.Component {
     const isAvailable = fish.status === 'available';
     if (!isAvailable) {
       return (
-      <li>
+      <li key={key}>
         Sorry, {fish ? fish.name : 'fish'} is no longer available. 
       </li>
       )
     }
     return (
-    <li>
+    <li key={key}>
      {count} lbs {fish.name}
      {formatPrice(count * fish.price)}
     </li>
